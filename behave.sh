@@ -13,7 +13,7 @@ python_install()
 behave_install()
 {
     sudo apt install python3-behave -y
-    if [ $?-ne 0 ]
+    if [ $? -ne 0 ]
     then
          echo "behave install failed"
     else
@@ -24,7 +24,7 @@ cleanup_workspace()
 {
   echo "removing old behave files"
   sudo rm -r /var/lib/jenkins/workspace/testbehave/features
-  if [ $?-ne 0 ]
+  if [ $? -ne 0 ]
   then
         echo "error while removing behave files"
   else
