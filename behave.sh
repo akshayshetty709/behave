@@ -33,7 +33,7 @@ cleanup_workspace()
   }
  behave_steps()
  {
-   echo "steps torun BDD"
+   echo "steps to run BDD"
    sudo mkdir -p /var/lib/jenkins/workspace/testbehave/features/steps
    sudo cp-r ./test.feature /var/lib/jenkins/workspace/testbehave/features
    sudo cp-r ./test.py /var/lib/jenkins/workspace/testbehave/features/steps
@@ -42,4 +42,4 @@ cleanup_workspace()
    python_install
    behave_install
    cleanup_workspace
-   behave-steps 
+   behave_steps 
