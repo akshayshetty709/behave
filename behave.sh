@@ -5,7 +5,7 @@ python_install()
     sudo apt install python3 -y
     if [ $? -ne 0 ]
     then
-         echo "python install failed"
+         echo "python installation failed"
     else
          echo "python installed succesfully"
     fi
@@ -15,7 +15,7 @@ behave_install()
     sudo apt install python3-behave -y
     if [ $? -ne 0 ]
     then
-         echo "behave install failed"
+         echo "behave installation failed"
     else
          echo "behave installed succesfully"
     fi
