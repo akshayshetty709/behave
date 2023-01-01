@@ -7,7 +7,7 @@ python_install()
     then
          echo "python install failed"
     else
-         echo "python installed succesfully"
+         echo "python installed successfully"
     fi
 }
 behave_install()
@@ -17,7 +17,7 @@ behave_install()
     then
          echo "behave install failed"
     else
-         echo "behave installed succesfully"
+         echo "behave installed successfully"
     fi
 }
 cleanup_workspace()
@@ -28,7 +28,7 @@ cleanup_workspace()
   then
         echo "error while removing behave files"
   else
-        echo "behave files removed sucessfully"
+        echo "behave files removed successfully"
   fi
   }
  behave_steps()
