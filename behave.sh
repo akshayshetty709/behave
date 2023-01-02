@@ -17,7 +17,7 @@ behave_install()
     then
          echo "behave installation failed"
     else
-         echo "behave installed successfully"
+         echo "behave installed successfull"
     fi
 }
 cleanup_workspace()
@@ -28,7 +28,7 @@ cleanup_workspace()
   then
         echo "error while removing behave files"
   else
-        echo "behave files removed successfully"
+        echo "behave files removed successfull"
   fi
   }
  behave_steps()
