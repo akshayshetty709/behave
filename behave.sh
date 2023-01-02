@@ -7,7 +7,7 @@ python_install()
     then
          echo "python installation failed"
     else
-         echo "python installed and updated succesfully"
+         echo "python installed succesfull"
     fi
 }
 behave_install()
